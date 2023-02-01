@@ -23,9 +23,8 @@ int main() {
 
   //  logic
   while (true) {
-    cout << "1.Addition 2.Multiplication 3.Substraction 4.Divisions 5.Exit"
-         << endl;
-    cout << "Please enter a number: ";
+    cout << "Serial No List:\n1.Addition \n2.Multiplication \n3.Substraction \n4.Divisions \n5.Exit"<< endl;
+    cout << "Please enter serial number for operation: ";
     cin >> op;
     cout << endl;
     if (op == 1) {
